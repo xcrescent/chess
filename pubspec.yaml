@@ -1,0 +1,52 @@
+name: chess
+description: ""
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  auto_route: ^9.2.2
+  dio: ^5.7.0
+  dio_smart_retry: ^6.0.0
+  duration: ^4.0.3
+  flash: ^3.1.1
+  flex_color_scheme: ^7.3.1
+  flutter:
+    sdk: flutter
+
+  flutter_displaymode: ^0.6.0
+  flutter_hooks: ^0.20.5
+  flutter_localizations:
+    sdk: flutter
+  flutter_riverpod: ^2.6.1
+  hive_flutter: ^1.1.0
+  hooks_riverpod: ^2.6.1
+  internet_connection_checker_plus: ^2.5.2
+  intl: ^0.19.0
+  path_provider: ^2.1.4
+  platform_info: ^5.0.0
+  responsive_framework: ^1.5.1
+  riverpod_annotation: ^2.6.1
+  talker_dio_logger: ^4.4.1
+  talker_flutter: ^4.4.1
+  velocity_x: ^4.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  auto_route_generator: ^9.0.0
+  build_runner: ^2.4.13
+  custom_lint: ^0.7.0
+  flutter_lints: ^5.0.0
+  mocktail: ^1.0.4
+  riverpod_lint: ^2.6.2
+  riverpod_test: ^0.1.6
+  very_good_analysis: ^6.0.0
+  riverpod_generator: ^2.6.2
+
+
+flutter:
+  uses-material-design: true
+  generate: true
